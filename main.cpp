@@ -1,14 +1,13 @@
 #include <iostream>
 #include <Windows.h>
 
-void InputTask();
-void IfTask(int task);
-void Task1();
-void Task2();
-void Task3();
-void Exit();
-int SumHalf(int num, bool half);
-
+void InputTask();					// Строка - 21 ( Выбор задания )
+void IfTask(int task);				// Строка - 53 ( Функция которая выполняет в какую функцию зайти для нужного задания )
+void Task1();						// Строка - 63
+void Task2();						// Строка - 108
+void Task3();						// Строка - 147
+int SumHalf(int num, bool half);	// Строка - 201 ( Суммирует какую то из половин числа )
+void Exit();						// Строка - 21 ( Функция которая спрашивает, еще раз решать задания или закончить решать )
 int main()
 {
 	SetConsoleCP(1251);
